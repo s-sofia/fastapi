@@ -69,6 +69,4 @@ def take_dog_type(ty:str):
         if dogs_db[i].kind == ty:
             dogs.append(dogs_db[i].name)
     return dogs
-
-@app.get('/takedogstype/{ty}')
          
