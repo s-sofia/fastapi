@@ -1,9 +1,6 @@
 from fastapi import FastAPI, Path
 from fastapi.responses import PlainTextResponse, HTMLResponse, FileResponse
-
-
 from enum import Enum
-from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI()
